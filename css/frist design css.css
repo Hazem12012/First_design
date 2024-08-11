@@ -143,6 +143,7 @@ body {
   top: calc(100% + 20px);
   min-width: 200px;
   display: none;
+  z-index: 100;
 }
 
 .header .links ul::before {
@@ -202,9 +203,14 @@ body {
   font-weight: bold;
 }
 
+.intro-text i{
+  color: #2c4d55;
+}
+
 .intro-text p {
   font-size: 20px;
   line-height: 1.8;
+  color: #7f6d6d;
 }
 
 /* end landing */
